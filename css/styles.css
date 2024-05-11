@@ -9,6 +9,30 @@ body .welcome-section {
 }
 body .welcome-section .navbar {
   border: 1px solid blue;
-  height: 100px;
-  width: 100px;
+  height: 58px;
+  width: 1441.83px;
+}
+body .welcome-section .navbar ul {
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 50px;
+  padding-top: 20px;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+}
+body .welcome-section .navbar ul li .logo {
+  margin-right: 150px;
+}
+body .welcome-section .navbar ul li .cart {
+  margin-left: 100px;
+}
+body .welcome-section .navbar ul li a {
+  padding-right: 20px;
+  color: #f1f1f1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
 }/*# sourceMappingURL=styles.css.map */
