@@ -1,0 +1,16 @@
+body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    .welcome-section{
+        border: 1px solid red;
+        height: 683px;
+        width: 1441px;
+
+        .navbar{
+            border: 1px solid blue;
+            height: 100px;
+            width: 100px;
+        }
+    }
+}
