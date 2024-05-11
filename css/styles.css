@@ -9,21 +9,21 @@ body .welcome-section {
 body .welcome-section .navbar {
   height: 70px;
   width: 100%;
-  z-index: 1;
-  position: relative;
 }
 body .welcome-section .navbar ul {
   font-family: "Manrope", sans-serif;
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: rgba(16, 16, 16, 0);
   height: 50px;
   align-items: center;
   text-align: center;
   padding-left: 20px;
+  z-index: 1;
+  position: relative;
 }
 body .welcome-section .navbar ul li .logo {
-  margin-right: 260px;
+  margin-right: 255px;
 }
 body .welcome-section .navbar ul li .cart {
   margin-left: 360px;
@@ -37,6 +37,8 @@ body .welcome-section .navbar ul li a {
 }
 body .welcome-section .hero-section {
   background-image: url("../images/desktop/image-hero.jpg");
-  border: 1px solid green;
-  height: 683px;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  bottom: 70px;
 }/*# sourceMappingURL=styles.css.map */
