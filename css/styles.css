@@ -87,7 +87,7 @@ body .welcome-section .intro .main-product {
 }
 body .product-section {
   border: 2px solid red;
-  padding: 849px 165px 849px 165px;
+  padding: 249px 165px 849px 135px;
   font-family: "Manrope", sans-serif;
 }
 body .product-section .product-list {
@@ -117,11 +117,30 @@ body .product-section .product-list .product-link .headphones h2 {
   padding-bottom: 20px;
   text-transform: uppercase;
 }
+body .product-section .product-list .product-link .headphones img {
+  height: 200px;
+  width: 200px;
+}
+body .product-section .product-list .product-link .headphones a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+  text-transform: uppercase;
+}
+body .product-section .product-list .product-link .headphones a span {
+  color: #d87d4a;
+  font-size: 17px;
+}
 body .product-section .product-list .product-link .speakers {
   background-color: #f1f1f1;
   height: 204px;
   width: 350px;
   margin-top: 85px;
+}
+body .product-section .product-list .product-link .speakers img {
+  height: 200px;
+  width: 200px;
 }
 body .product-section .product-list .product-link .speakers h2 {
   font-weight: bold;
@@ -131,11 +150,29 @@ body .product-section .product-list .product-link .speakers h2 {
   padding-bottom: 20px;
   text-transform: uppercase;
 }
+body .product-section .product-list .product-link .speakers a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+  text-transform: uppercase;
+}
+body .product-section .product-list .product-link .speakers a span {
+  color: #d87d4a;
+  font-size: 17px;
+}
 body .product-section .product-list .product-link .earphones {
   background-color: #f1f1f1;
   height: 204px;
   width: 350px;
-  margin-top: 85px;
+  margin-top: 67px;
+}
+body .product-section .product-list .product-link .earphones img {
+  height: 190px;
+  width: 200px;
+  position: absolute;
+  top: 50px;
+  right: 160px;
 }
 body .product-section .product-list .product-link .earphones h2 {
   font-weight: bold;
@@ -144,4 +181,15 @@ body .product-section .product-list .product-link .earphones h2 {
   padding-bottom: 20px;
   letter-spacing: 1.29px;
   text-transform: uppercase;
+}
+body .product-section .product-list .product-link .earphones a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+  text-transform: uppercase;
+}
+body .product-section .product-list .product-link .earphones a span {
+  color: #d87d4a;
+  font-size: 17px;
 }/*# sourceMappingURL=styles.css.map */
