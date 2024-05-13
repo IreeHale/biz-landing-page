@@ -84,4 +84,15 @@ body .welcome-section .intro .main-product {
   font-size: 13px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+body .product-section {
+  border: 2px solid red;
+  display: flex;
+  padding: 849px 165px 849px 165px;
+}
+body .product-section .product-list {
+  border: solid blue 2px;
+  flex-direction: row;
+  width: 1110px;
+  height: 289px;
 }/*# sourceMappingURL=styles.css.map */

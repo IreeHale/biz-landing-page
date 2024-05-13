@@ -99,4 +99,18 @@ body{
             }
         }
     }
+
+    .product-section{
+        border: 2px solid red;
+        display: flex;
+        padding: 849px 165px 849px 165px;
+
+        .product-list{
+            border: solid blue 2px;
+            flex-direction: row;
+            width: 1110px;
+            height: 289px;
+            
+        }
+    }
 }
