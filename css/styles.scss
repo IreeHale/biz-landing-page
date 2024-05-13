@@ -102,15 +102,72 @@ body{
 
     .product-section{
         border: 2px solid red;
-        display: flex;
         padding: 849px 165px 849px 165px;
+        font-family: 'Manrope', sans-serif;
 
         .product-list{
+            display: flex;
             border: solid blue 2px;
             flex-direction: row;
+            gap: 30px;
             width: 1110px;
             height: 289px;
-            
+
+            .product-link{
+                height: 284px;
+                width: 350px;
+                text-align: center;
+
+
+                .headphones{
+                    background-color: #f1f1f1;
+                    height: 204px;
+                    width: 350px;
+                    margin-top: 85px;
+
+
+                    h2{
+                        font-weight: bold;
+                        font-size: 18px;
+                        letter-spacing: 1.29px;
+                        padding-top: 75px;
+                        padding-bottom: 20px;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .speakers{
+                    background-color: #f1f1f1;
+                    height: 204px;
+                    width: 350px;
+                    margin-top: 85px;
+
+                    h2{
+                        font-weight: bold;
+                        font-size: 18px;
+                        letter-spacing: 1.29px;
+                        padding-top: 75px;
+                        padding-bottom: 20px;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .earphones{
+                    background-color: #f1f1f1;
+                    height: 204px;
+                    width: 350px;
+                    margin-top: 85px;
+
+                    h2{
+                        font-weight: bold;
+                        font-size: 18px;
+                        padding-top: 75px;
+                        padding-bottom: 20px;
+                        letter-spacing: 1.29px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
         }
     }
 }

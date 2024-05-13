@@ -87,12 +87,61 @@ body .welcome-section .intro .main-product {
 }
 body .product-section {
   border: 2px solid red;
-  display: flex;
   padding: 849px 165px 849px 165px;
+  font-family: "Manrope", sans-serif;
 }
 body .product-section .product-list {
+  display: flex;
   border: solid blue 2px;
   flex-direction: row;
+  gap: 30px;
   width: 1110px;
   height: 289px;
+}
+body .product-section .product-list .product-link {
+  height: 284px;
+  width: 350px;
+  text-align: center;
+}
+body .product-section .product-list .product-link .headphones {
+  background-color: #f1f1f1;
+  height: 204px;
+  width: 350px;
+  margin-top: 85px;
+}
+body .product-section .product-list .product-link .headphones h2 {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1.29px;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+body .product-section .product-list .product-link .speakers {
+  background-color: #f1f1f1;
+  height: 204px;
+  width: 350px;
+  margin-top: 85px;
+}
+body .product-section .product-list .product-link .speakers h2 {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1.29px;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+body .product-section .product-list .product-link .earphones {
+  background-color: #f1f1f1;
+  height: 204px;
+  width: 350px;
+  margin-top: 85px;
+}
+body .product-section .product-list .product-link .earphones h2 {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  letter-spacing: 1.29px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=styles.css.map */
