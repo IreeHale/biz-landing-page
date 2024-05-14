@@ -101,13 +101,11 @@ body{
     }
 
     .product-section{
-        border: 2px solid red;
         padding: 249px 165px 849px 135px;
         font-family: 'Manrope', sans-serif;
 
         .product-list{
             display: flex;
-            border: solid blue 2px;
             flex-direction: row;
             gap: 30px;
             width: 1110px;
@@ -135,11 +133,10 @@ body{
                     }
 
                     img{
-                        height: 130px;
-                        width: 150px;
+                        height: 140px;
+                        width: 140px;
                         position: relative;
                         bottom: 40px;
-                        border: 1px solid red;
                     }
 
                     a{
@@ -167,7 +164,6 @@ body{
                         width: 150px;
                         position: relative;
                         bottom: 40px;
-                        border: 1px solid red;
                     }
 
                     h2{
@@ -203,12 +199,12 @@ body{
                         width: 150px;
                         position: relative;
                         bottom: 35px;
-                        border: 1px solid red;
                     }
 
                     h2{
                         font-weight: bold;
                         font-size: 18px;
+                        padding-top: 10px;
                         padding-bottom: 15px;
                         letter-spacing: 1.29px;
                         text-transform: uppercase;
