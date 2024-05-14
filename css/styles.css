@@ -111,13 +111,14 @@ body .product-section .product-list .product-link .headphones h2 {
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 1.29px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   text-transform: uppercase;
 }
 body .product-section .product-list .product-link .headphones img {
   height: 140px;
   width: 140px;
   position: relative;
+  margin-bottom: -40px;
   bottom: 40px;
 }
 body .product-section .product-list .product-link .headphones a {
@@ -140,6 +141,7 @@ body .product-section .product-list .product-link .speakers {
 body .product-section .product-list .product-link .speakers img {
   height: 140px;
   width: 150px;
+  margin-bottom: -40px;
   position: relative;
   bottom: 40px;
 }
@@ -170,6 +172,7 @@ body .product-section .product-list .product-link .earphones {
 body .product-section .product-list .product-link .earphones img {
   height: 130px;
   width: 150px;
+  margin-bottom: -40px;
   position: relative;
   bottom: 35px;
 }
