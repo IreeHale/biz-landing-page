@@ -113,13 +113,15 @@ body .product-section .product-list .product-link .headphones h2 {
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 1.29px;
-  padding-top: 75px;
   padding-bottom: 20px;
   text-transform: uppercase;
 }
 body .product-section .product-list .product-link .headphones img {
-  height: 200px;
-  width: 200px;
+  height: 130px;
+  width: 150px;
+  position: relative;
+  bottom: 40px;
+  border: 1px solid red;
 }
 body .product-section .product-list .product-link .headphones a {
   text-decoration: none;
@@ -139,15 +141,17 @@ body .product-section .product-list .product-link .speakers {
   margin-top: 85px;
 }
 body .product-section .product-list .product-link .speakers img {
-  height: 200px;
-  width: 200px;
+  height: 140px;
+  width: 150px;
+  position: relative;
+  bottom: 40px;
+  border: 1px solid red;
 }
 body .product-section .product-list .product-link .speakers h2 {
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 1.29px;
-  padding-top: 75px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   text-transform: uppercase;
 }
 body .product-section .product-list .product-link .speakers a {
@@ -165,20 +169,19 @@ body .product-section .product-list .product-link .earphones {
   background-color: #f1f1f1;
   height: 204px;
   width: 350px;
-  margin-top: 67px;
+  margin-top: 83px;
 }
 body .product-section .product-list .product-link .earphones img {
-  height: 190px;
-  width: 200px;
-  position: absolute;
-  top: 50px;
-  right: 160px;
+  height: 130px;
+  width: 150px;
+  position: relative;
+  bottom: 35px;
+  border: 1px solid red;
 }
 body .product-section .product-list .product-link .earphones h2 {
   font-weight: bold;
   font-size: 18px;
-  padding-top: 75px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   letter-spacing: 1.29px;
   text-transform: uppercase;
 }

@@ -130,14 +130,16 @@ body{
                         font-weight: bold;
                         font-size: 18px;
                         letter-spacing: 1.29px;
-                        padding-top: 75px;
                         padding-bottom: 20px;
                         text-transform: uppercase;
                     }
 
                     img{
-                        height: 200px;
-                        width: 200px;
+                        height: 130px;
+                        width: 150px;
+                        position: relative;
+                        bottom: 40px;
+                        border: 1px solid red;
                     }
 
                     a{
@@ -161,16 +163,18 @@ body{
                     margin-top: 85px;
 
                     img{
-                        height: 200px;
-                        width: 200px;
+                        height: 140px;
+                        width: 150px;
+                        position: relative;
+                        bottom: 40px;
+                        border: 1px solid red;
                     }
 
                     h2{
                         font-weight: bold;
                         font-size: 18px;
                         letter-spacing: 1.29px;
-                        padding-top: 75px;
-                        padding-bottom: 20px;
+                        padding-bottom: 10px;
                         text-transform: uppercase;
                     }
 
@@ -192,21 +196,20 @@ body{
                     background-color: #f1f1f1;
                     height: 204px;
                     width: 350px;
-                    margin-top: 67px;
+                    margin-top: 83px;
 
                     img{
-                        height: 190px;
-                        width: 200px;
-                        position: absolute;
-                        top: 50px;
-                        right:160px;
+                        height: 130px;
+                        width: 150px;
+                        position: relative;
+                        bottom: 35px;
+                        border: 1px solid red;
                     }
 
                     h2{
                         font-weight: bold;
                         font-size: 18px;
-                        padding-top: 75px;
-                        padding-bottom: 20px;
+                        padding-bottom: 15px;
                         letter-spacing: 1.29px;
                         text-transform: uppercase;
                     }
