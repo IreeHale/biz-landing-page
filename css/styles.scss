@@ -228,5 +228,62 @@ body{
                 }
             }
         }
+
+        .zx9-speaker{
+            margin-top: 206px;
+            height: 560px;
+            width: 1110px;
+            background-image: url('../images/desktop/pattern-circles.svg');
+            background-size: cover;
+            background-color: #d87d4a;
+            border-radius: 10px;
+            overflow: hidden;
+
+            img{
+                width: 410.23px;
+                height: 493px;
+                position: relative;
+                top: 76px;
+                left: 120px;
+            }
+
+            .new-speaker{
+                width: 349px;
+                height: 303px;
+                position: relative;
+                left: 650px;
+                bottom: 340px;
+
+                h1{
+                    letter-spacing: 2px;
+                    line-height: 58px;
+                    font-size: 56px;
+                    font-weight: bold;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    padding-bottom: 20px;
+                }
+
+                p{
+                    line-height: 25px;
+                    font-size: 15px;
+                    font-weight: medium;
+                    color: #ffffff;
+                    padding-bottom: 35px;
+                }
+
+                button{
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    background-color: black;
+                    border: none;
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    width: 160px;
+                    height: 48px;
+                }
+            }
+        }
     }
 }
