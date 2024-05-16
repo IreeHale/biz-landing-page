@@ -106,6 +106,7 @@ body .product-section .product-list .product-link .headphones {
   height: 204px;
   width: 350px;
   margin-top: 85px;
+  border-radius: 6px;
 }
 body .product-section .product-list .product-link .headphones h2 {
   font-weight: bold;
@@ -137,6 +138,7 @@ body .product-section .product-list .product-link .speakers {
   height: 204px;
   width: 350px;
   margin-top: 85px;
+  border-radius: 6px;
 }
 body .product-section .product-list .product-link .speakers img {
   height: 140px;
@@ -168,6 +170,7 @@ body .product-section .product-list .product-link .earphones {
   height: 204px;
   width: 350px;
   margin-top: 83px;
+  border-radius: 6px;
 }
 body .product-section .product-list .product-link .earphones img {
   height: 130px;
@@ -245,4 +248,38 @@ body .product-section .zx9-speaker .new-speaker button {
   font-weight: bold;
   width: 160px;
   height: 48px;
+}
+body .product-section .zx7-speaker {
+  width: 1110px;
+  height: 320px;
+  margin-top: 200px;
+  border-radius: 6px;
+  background-image: url("../images/desktop/image-speaker-zx7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+body .product-section .zx7-speaker .second-speaker {
+  width: 204px;
+  height: 118px;
+  border-radius: 6px;
+  margin-top: 120px;
+  margin-left: 140px;
+}
+body .product-section .zx7-speaker .second-speaker h1 {
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+body .product-section .zx7-speaker .second-speaker button {
+  width: 160px;
+  height: 48px;
+  border: black 2px solid;
+  background-color: none;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=styles.css.map */

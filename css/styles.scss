@@ -122,6 +122,7 @@ body{
                     height: 204px;
                     width: 350px;
                     margin-top: 85px;
+                    border-radius: 6px;
 
 
                     h2{
@@ -159,6 +160,7 @@ body{
                     height: 204px;
                     width: 350px;
                     margin-top: 85px;
+                    border-radius: 6px;
 
                     img{
                         height: 140px;
@@ -195,6 +197,7 @@ body{
                     height: 204px;
                     width: 350px;
                     margin-top: 83px;
+                    border-radius: 6px;
 
                     img{
                         height: 130px;
@@ -282,6 +285,44 @@ body{
                     font-weight: bold;
                     width: 160px;
                     height: 48px;
+                }
+            }
+        }
+
+        .zx7-speaker{
+            width: 1110px;
+            height: 320px;
+            margin-top: 200px;
+            border-radius: 6px;
+            background-image: url('../images/desktop/image-speaker-zx7.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+
+            .second-speaker{
+                width: 204px;
+                height: 118px;
+                border-radius: 6px;
+                margin-top: 120px;
+                margin-left: 140px;
+
+                h1{
+                    font-weight: bold;
+                    font-size: 28px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    padding-bottom: 30px;
+                }
+
+                button{
+                    width: 160px;
+                    height: 48px;
+                    border: black 2px solid;
+                    background-color: none;
+                    font-size: 13px;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
                 }
             }
         }
