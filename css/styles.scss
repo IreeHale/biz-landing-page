@@ -326,5 +326,28 @@ body{
                 }
             }
         }
+
+        .yx1-earphones{
+            border: 1px black solid;
+            width: 1110px;
+            height: 320px;
+            margin-top: 150px;
+            display: flex;
+            flex-direction: row;
+            gap: 35px;
+
+            img{
+                height: 320px;
+                width: 540px;
+                border-radius: 6px;
+            }
+
+            .new-earphones{
+                background-color: #f1f1f1;
+                width: 540px;
+                height: 320px;
+                border: 1px solid blue;
+            }
+        }
     }
 }
