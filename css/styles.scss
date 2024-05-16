@@ -328,7 +328,6 @@ body{
         }
 
         .yx1-earphones{
-            border: 1px black solid;
             width: 1110px;
             height: 320px;
             margin-top: 150px;
@@ -346,7 +345,33 @@ body{
                 background-color: #f1f1f1;
                 width: 540px;
                 height: 320px;
-                border: 1px solid blue;
+                border-radius: 6px;
+
+                .info{
+                    width: 247px;
+                    height: 118px;
+                    margin-left: 100px;
+                    margin-top: 100px;
+
+                    h1{
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        letter-spacing: 2px;
+                        font-size: 28px;
+                    }
+
+                    button{
+                        margin-top: 42px;
+                        width: 160px;
+                        height: 48px;
+                        font-weight: bold;
+                        font-size: 13px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        background: none;
+                        border: black solid 2px;
+                    }
+                }
             }
         }
     }

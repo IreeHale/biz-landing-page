@@ -284,7 +284,6 @@ body .product-section .zx7-speaker .second-speaker button {
   text-transform: uppercase;
 }
 body .product-section .yx1-earphones {
-  border: 1px black solid;
   width: 1110px;
   height: 320px;
   margin-top: 150px;
@@ -301,5 +300,28 @@ body .product-section .yx1-earphones .new-earphones {
   background-color: #f1f1f1;
   width: 540px;
   height: 320px;
-  border: 1px solid blue;
+  border-radius: 6px;
+}
+body .product-section .yx1-earphones .new-earphones .info {
+  width: 247px;
+  height: 118px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+body .product-section .yx1-earphones .new-earphones .info h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+body .product-section .yx1-earphones .new-earphones .info button {
+  margin-top: 42px;
+  width: 160px;
+  height: 48px;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: none;
+  border: black solid 2px;
 }/*# sourceMappingURL=styles.css.map */
