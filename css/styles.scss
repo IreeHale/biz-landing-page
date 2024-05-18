@@ -374,5 +374,14 @@ body{
                 }
             }
         }
+
+        .ending-quote{
+            border: 2px black solid;
+            height: 588px;
+            width: 1110px;
+            display: flex;
+            flex-direction: row;
+
+        }
     }
 }
