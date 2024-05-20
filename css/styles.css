@@ -360,7 +360,12 @@ body .product-section .ending-quote .location-info p {
 }
 body .product-section .last-section {
   border: black solid 2px;
+  background-color: black;
   margin-top: 130px;
   width: 1105px;
   height: 365px;
+  display: flex;
+}
+body .product-section .last-section .footer-info {
+  color: white;
 }/*# sourceMappingURL=styles.css.map */

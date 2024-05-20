@@ -418,9 +418,16 @@ body{
 
         .last-section{
             border: black solid 2px;
+            background-color: black;
             margin-top: 130px;
             width: 1105px;
             height: 365px;
+            display: flex;
+
+
+            .footer-info{
+                color: white;
+            }
         }
     }
 }
