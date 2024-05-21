@@ -5,6 +5,7 @@ body{
     .welcome-section{
         height: 683px;
         width: 100%;
+        overflow: hidden;
 
         .navbar{
             height: 70px;
@@ -25,6 +26,7 @@ body{
                 li{
 
                     .logo{
+                        margin-left: 50px;
                         margin-right: 255px;
                     }
 
@@ -38,6 +40,11 @@ body{
                         text-decoration: none;
                         text-transform: uppercase;
                         font-weight: 500;
+                    }
+
+                    a:hover{
+                        color: #D87D4A;
+                        transition-duration: .4s;
                     }
                 }
             }
@@ -96,6 +103,10 @@ body{
                 font-size: 13px;
                 letter-spacing: 1px;
                 text-transform: uppercase;
+            }
+            
+            .main-product:hover{
+                cursor: pointer;
             }
         }
     }
@@ -287,6 +298,11 @@ body{
                     width: 160px;
                     height: 48px;
                 }
+
+                button:hover{
+                    cursor: pointer;
+
+                }
             }
         }
 
@@ -324,6 +340,13 @@ body{
                     font-weight: bold;
                     letter-spacing: 1px;
                     text-transform: uppercase;
+                }
+
+                button:hover{
+                    cursor: pointer;
+                    background-color: black;
+                    color: white;
+                    transition-duration: 0.3s;
                 }
             }
         }
@@ -372,6 +395,13 @@ body{
                         background: none;
                         border: black solid 1px;
                     }
+
+                        button:hover{
+                            cursor: pointer;
+                            background-color: black;
+                            color: white;
+                            transition-duration: 0.3s;
+                        }
                 }
             }
         }
@@ -465,6 +495,11 @@ body{
                                 font-size: 13px;
                                 padding-right: 30px;
                                 text-transform: uppercase;
+                            }
+
+                            a:hover{
+                                color: #D87D4A;
+                                transition-duration: .4s;
                             }
                         }
                     }

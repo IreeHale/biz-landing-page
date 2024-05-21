@@ -5,6 +5,7 @@ body {
 body .welcome-section {
   height: 683px;
   width: 100%;
+  overflow: hidden;
 }
 body .welcome-section .navbar {
   height: 70px;
@@ -23,6 +24,7 @@ body .welcome-section .navbar ul {
   position: relative;
 }
 body .welcome-section .navbar ul li .logo {
+  margin-left: 50px;
   margin-right: 255px;
 }
 body .welcome-section .navbar ul li .cart {
@@ -34,6 +36,10 @@ body .welcome-section .navbar ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
+}
+body .welcome-section .navbar ul li a:hover {
+  color: #D87D4A;
+  transition-duration: 0.4s;
 }
 body .welcome-section .hero-section {
   background-image: url("../images/desktop/image-hero.jpg");
@@ -84,6 +90,9 @@ body .welcome-section .intro .main-product {
   font-size: 13px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+body .welcome-section .intro .main-product:hover {
+  cursor: pointer;
 }
 body .product-section {
   padding: 249px 165px 849px 135px;
@@ -250,6 +259,9 @@ body .product-section .zx9-speaker .new-speaker button {
   width: 160px;
   height: 48px;
 }
+body .product-section .zx9-speaker .new-speaker button:hover {
+  cursor: pointer;
+}
 body .product-section .zx7-speaker {
   width: 1110px;
   height: 320px;
@@ -283,6 +295,12 @@ body .product-section .zx7-speaker .second-speaker button {
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+body .product-section .zx7-speaker .second-speaker button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition-duration: 0.3s;
 }
 body .product-section .yx1-earphones {
   width: 1110px;
@@ -325,6 +343,12 @@ body .product-section .yx1-earphones .new-earphones .info button {
   text-transform: uppercase;
   background: none;
   border: black solid 1px;
+}
+body .product-section .yx1-earphones .new-earphones .info button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition-duration: 0.3s;
 }
 body .product-section .ending-quote {
   margin-top: 200px;
@@ -402,6 +426,10 @@ body .product-section .last-section .footer-info .footer-nav ul li a {
   font-size: 13px;
   padding-right: 30px;
   text-transform: uppercase;
+}
+body .product-section .last-section .footer-info .footer-nav ul li a:hover {
+  color: #D87D4A;
+  transition-duration: 0.4s;
 }
 body .product-section .last-section .footer-info .more {
   height: 210px;
