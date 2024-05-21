@@ -420,5 +420,11 @@ body .product-section .last-section .footer-info .more .copyright {
 }
 body .product-section .last-section .footer-info .social-links {
   position: relative;
-  left: 500px;
+  left: 1000px;
+  bottom: 200px;
+}
+body .product-section .last-section .footer-info .social-links img {
+  padding-right: 15px;
+  height: 24px;
+  width: 24px;
 }/*# sourceMappingURL=styles.css.map */

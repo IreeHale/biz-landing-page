@@ -490,7 +490,15 @@ body{
 
                 .social-links{
                     position: relative;
-                    left: 500px;
+                    left: 1000px;
+                    bottom: 200px;
+
+
+                    img{
+                        padding-right: 15px;
+                        height: 24px;
+                        width: 24px;
+                    }
                 }
             }
         }
