@@ -439,7 +439,6 @@ body{
                     ul{
                         display: flex;
                         flex-direction: row;
-                        border: red solid 2px;
                         padding-top: 10px;
 
                         li{
@@ -469,6 +468,21 @@ body{
 
                 .more{
                     border: blue solid 2px;
+                    height: 210px;
+                    width: 540px;
+                    margin-left: 29px;
+                    margin-top: 90px;
+
+                    p{
+                        font-weight: medium;
+                        font-size: 15px;
+                        line-height: 25px;
+                        letter-spacing: 0px;
+                    }
+
+                    .copyright{
+                        margin-top: 60px;
+                    }
                 }
             }
         }

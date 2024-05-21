@@ -379,7 +379,6 @@ body .product-section .last-section .footer-info .footer-nav {
 body .product-section .last-section .footer-info .footer-nav ul {
   display: flex;
   flex-direction: row;
-  border: red solid 2px;
   padding-top: 10px;
 }
 body .product-section .last-section .footer-info .footer-nav ul li .logo-2 {
@@ -402,4 +401,17 @@ body .product-section .last-section .footer-info .footer-nav ul li a {
 }
 body .product-section .last-section .footer-info .more {
   border: blue solid 2px;
+  height: 210px;
+  width: 540px;
+  margin-left: 29px;
+  margin-top: 90px;
+}
+body .product-section .last-section .footer-info .more p {
+  font-weight: medium;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+body .product-section .last-section .footer-info .more .copyright {
+  margin-top: 60px;
 }/*# sourceMappingURL=styles.css.map */
