@@ -88,6 +88,9 @@ body .welcome-section .intro .main-product {
 body .product-section {
   padding: 249px 165px 849px 135px;
   font-family: "Manrope", sans-serif;
+  border: 1px solid red;
+  height: 2480px;
+  overflow: hidden;
 }
 body .product-section .product-list {
   display: flex;
