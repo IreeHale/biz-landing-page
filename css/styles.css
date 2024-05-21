@@ -365,9 +365,10 @@ body .product-section .last-section {
   margin-top: 130px;
   position: relative;
   right: 137px;
-  width: 1364px;
-  height: 365px;
+  width: 1360px;
+  height: 379px;
   display: flex;
+  overflow: hidden;
 }
 body .product-section .last-section .footer-info {
   color: white;
@@ -385,8 +386,8 @@ body .product-section .last-section .footer-info .footer-nav ul {
   padding-top: 10px;
 }
 body .product-section .last-section .footer-info .footer-nav ul li .logo-2 {
-  padding-left: 30px;
-  padding-right: 410px;
+  padding-left: 100px;
+  padding-right: 750px;
 }
 body .product-section .last-section .footer-info .footer-nav ul li .logo-2 img {
   height: 25px;
@@ -403,10 +404,9 @@ body .product-section .last-section .footer-info .footer-nav ul li a {
   text-transform: uppercase;
 }
 body .product-section .last-section .footer-info .more {
-  border: blue solid 2px;
   height: 210px;
   width: 540px;
-  margin-left: 29px;
+  margin-left: 90px;
   margin-top: 90px;
 }
 body .product-section .last-section .footer-info .more p {
@@ -416,5 +416,9 @@ body .product-section .last-section .footer-info .more p {
   letter-spacing: 0px;
 }
 body .product-section .last-section .footer-info .more .copyright {
-  margin-top: 60px;
+  margin-top: 80px;
+}
+body .product-section .last-section .footer-info .social-links {
+  position: relative;
+  left: 500px;
 }/*# sourceMappingURL=styles.css.map */
