@@ -109,6 +109,10 @@ body{
             .main-product:hover{
                 cursor: pointer;
             }
+
+            .main-product:active{
+                background-color: #fbaf85;
+            }
         }
     }
 
