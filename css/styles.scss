@@ -170,6 +170,10 @@ body{
                             font-size: 17px;
                         }
                     }
+
+                    a:active{
+                        color: #d87d4a;
+                    }
                 }
 
                 .speakers{
@@ -206,6 +210,10 @@ body{
                             color: #d87d4a;
                             font-size: 17px;
                         }
+                    }
+
+                    a:active{
+                        color: #d87d4a;
                     }
                 }
 
@@ -244,6 +252,10 @@ body{
                             color: #d87d4a;
                             font-size: 17px;
                         }
+                    }
+
+                    a:active{
+                        color: #d87d4a;
                     }
                 }
             }
@@ -307,6 +319,10 @@ body{
                 button:hover{
                     cursor: pointer;
 
+                }
+
+                button:active{
+                    background-color: #4c4c4c;
                 }
             }
         }

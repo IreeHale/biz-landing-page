@@ -147,6 +147,9 @@ body .product-section .product-list .product-link .headphones a span {
   color: #d87d4a;
   font-size: 17px;
 }
+body .product-section .product-list .product-link .headphones a:active {
+  color: #d87d4a;
+}
 body .product-section .product-list .product-link .speakers {
   background-color: #f1f1f1;
   height: 204px;
@@ -178,6 +181,9 @@ body .product-section .product-list .product-link .speakers a {
 body .product-section .product-list .product-link .speakers a span {
   color: #d87d4a;
   font-size: 17px;
+}
+body .product-section .product-list .product-link .speakers a:active {
+  color: #d87d4a;
 }
 body .product-section .product-list .product-link .earphones {
   background-color: #f1f1f1;
@@ -211,6 +217,9 @@ body .product-section .product-list .product-link .earphones a {
 body .product-section .product-list .product-link .earphones a span {
   color: #d87d4a;
   font-size: 17px;
+}
+body .product-section .product-list .product-link .earphones a:active {
+  color: #d87d4a;
 }
 body .product-section .zx9-speaker {
   margin-top: 206px;
@@ -265,6 +274,9 @@ body .product-section .zx9-speaker .new-speaker button {
 }
 body .product-section .zx9-speaker .new-speaker button:hover {
   cursor: pointer;
+}
+body .product-section .zx9-speaker .new-speaker button:active {
+  background-color: #4c4c4c;
 }
 body .product-section .zx7-speaker {
   width: 1110px;
