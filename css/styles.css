@@ -471,4 +471,7 @@ body .product-section .last-section .footer-info .social-links img {
   padding-right: 15px;
   height: 24px;
   width: 24px;
+}
+body .product-section .last-section .footer-info .social-links img:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
