@@ -27,6 +27,9 @@ body .welcome-section .navbar ul li .logo {
   margin-left: 140px;
   margin-right: 285px;
 }
+body .welcome-section .navbar ul li .logo:hover {
+  cursor: pointer;
+}
 body .welcome-section .navbar ul li .cart {
   margin-left: 300px;
   margin-right: 90px;
@@ -468,7 +471,7 @@ body .product-section .last-section .footer-info .social-links {
   bottom: 200px;
 }
 body .product-section .last-section .footer-info .social-links img {
-  padding-right: 15px;
+  padding-right: 25px;
   height: 24px;
   width: 24px;
 }
