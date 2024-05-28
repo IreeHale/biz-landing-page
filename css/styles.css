@@ -7,6 +7,11 @@ body .welcome-section {
   width: 100%;
   overflow: hidden;
 }
+@media (min-width: 1440px) {
+  body .welcome-section {
+    width: 100%;
+  }
+}
 body .welcome-section .navbar {
   height: 70px;
   width: 100%;

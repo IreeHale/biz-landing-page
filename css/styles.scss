@@ -7,6 +7,10 @@ body{
         width: 100%;
         overflow: hidden;
 
+        @media(min-width: 1440px){
+            width: 100%;
+        }
+
         .navbar{
             height: 70px;
             width: 100%;
