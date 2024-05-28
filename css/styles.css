@@ -40,7 +40,7 @@ body .welcome-section .navbar ul li .logo {
 @media screen and (max-width: 1440px) {
   body .welcome-section .navbar ul li .logo {
     margin-left: 50px;
-    margin-right: 290px;
+    margin-right: 250px;
   }
 }
 body .welcome-section .navbar ul li .logo:hover {
