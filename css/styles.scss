@@ -7,7 +7,7 @@ body{
         width: 100%;
         overflow: hidden;
 
-        @media(min-width: 1440px){
+        @media screen and (max-width: 1440px){
             width: 100%;
         }
 
@@ -27,11 +27,21 @@ body{
                 z-index: 1;
                 position: relative;
 
+                @media screen and (max-width: 1440px){
+                    width: 100%;
+                }
+
                 li{
+
 
                     .logo{
                         margin-left: 140px;
                         margin-right: 285px;
+
+                        @media screen and (max-width: 1440px){
+                            margin-left: 50px;
+                            margin-right: 290px;
+                        }
                     }
 
                     .logo:hover{
@@ -128,6 +138,12 @@ body{
         padding: 249px 165px 849px 135px;
         font-family: 'Manrope', sans-serif;
         height: 2480px;
+
+        @media screen and (max-width: 1440px){
+            width: 1091px;
+            padding-left: 167px;
+            overflow : hidden;
+        }
 
         .product-list{
             display: flex;
@@ -486,6 +502,11 @@ body{
             height: 379px;
             display: flex;
             overflow: hidden;
+
+            @media screen and (max-width: 1440px){
+                width: 2010px;
+                right: 150px;
+            }
 
 
             .footer-info{
