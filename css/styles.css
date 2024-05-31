@@ -50,6 +50,9 @@ body .welcome-section .navbar ul li .cart {
   margin-left: 300px;
   margin-right: 90px;
 }
+body .welcome-section .navbar ul li #hamburger {
+  display: none;
+}
 body .welcome-section .navbar ul li a {
   padding-right: 45px;
   color: #f1f1f1;
