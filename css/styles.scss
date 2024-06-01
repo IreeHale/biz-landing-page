@@ -11,6 +11,11 @@ body{
             width: 100%;
         }
 
+        @media (max-width: 768px){
+
+            width: 768px;
+        }
+
         .navbar{
             height: 70px;
             width: 100%;
@@ -33,15 +38,28 @@ body{
 
                 li{
 
+                    .mini{
+                        @media screen and (max-width: 768px){
+                            display: none;
+                        }
+                    }
+
 
                     .logo{
                         margin-left: 140px;
                         margin-right: 285px;
 
                         @media screen and (max-width: 1440px){
-                            margin-left: 50px;
+                            margin-left: 100px;
                             margin-right: 250px;
                         }
+
+                        @media screen and (max-width: 768px){
+                            display: block;
+                            margin-left: 0px;
+                        }
+
+                        
                     }
 
                     .logo:hover{
@@ -51,11 +69,20 @@ body{
                     .cart{
                         margin-left: 300px;
                         margin-right: 90px;
+
+                        @media screen and (max-width: 768px){
+                            display: block;
+                            margin-left: 0px;
+                        }
                     }
 
                     #hamburger{
                         display: none;
+
+                        @media screen and (max-width: 768px){
+                            display: block;
                     }
+                }
 
                     a{
                         padding-right: 45px;
@@ -80,6 +107,12 @@ body{
             width: 100%;
             position: relative;
             bottom: 70px;
+
+            @media (max-width: 768px) {
+                background-image: url('../images/mobile/image-header.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
         }
 
         .intro{
