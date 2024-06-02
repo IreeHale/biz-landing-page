@@ -15,6 +15,7 @@ body .welcome-section {
 @media (max-width: 768px) {
   body .welcome-section {
     width: 768px;
+    height: 900px;
   }
 }
 body .welcome-section .navbar {
@@ -69,7 +70,7 @@ body .welcome-section .navbar ul li .cart {
 @media screen and (max-width: 768px) {
   body .welcome-section .navbar ul li .cart {
     display: block;
-    margin-left: 0px;
+    margin-left: 160px;
   }
 }
 body .welcome-section .navbar ul li #hamburger {
@@ -101,8 +102,9 @@ body .welcome-section .hero-section {
 }
 @media (max-width: 768px) {
   body .welcome-section .hero-section {
-    background-image: url("../images/mobile/image-header.jpg");
+    background-image: url("../images/shared/tablet/image-header.jpg");
     background-size: cover;
+    border: red solid 2px;
     background-repeat: no-repeat;
   }
 }
@@ -114,12 +116,27 @@ body .welcome-section .intro {
   left: 165px;
   font-family: "Manrope", sans-serif;
 }
+@media screen and (max-width: 768px) {
+  body .welcome-section .intro {
+    text-align: center;
+    align-items: center;
+    width: 498px;
+    margin-left: 55px;
+    margin-top: 50px;
+  }
+}
 body .welcome-section .intro h2 {
   font-size: 14px;
   color: #7e7878;
   text-transform: uppercase;
   letter-spacing: 10px;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  body .welcome-section .intro h2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
 }
 body .welcome-section .intro h1 {
   color: #f1f1f1;
@@ -130,12 +147,23 @@ body .welcome-section .intro h1 {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+  body .welcome-section .intro h1 {
+    font-size: 50px;
+  }
+}
 body .welcome-section .intro p {
   color: #f1f1f1;
   font-weight: 400;
   line-height: 25px;
   font-size: 15px;
   margin-bottom: 35px;
+}
+@media screen and (max-width: 768px) {
+  body .welcome-section .intro p {
+    font-size: 22px;
+    margin-bottom: 42px;
+  }
 }
 body .welcome-section .intro .main-product {
   width: 160px;

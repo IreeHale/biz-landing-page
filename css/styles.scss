@@ -12,8 +12,9 @@ body{
         }
 
         @media (max-width: 768px){
-
             width: 768px;
+            height: 900px;
+            
         }
 
         .navbar{
@@ -72,7 +73,7 @@ body{
 
                         @media screen and (max-width: 768px){
                             display: block;
-                            margin-left: 0px;
+                            margin-left: 160px;
                         }
                     }
 
@@ -109,8 +110,9 @@ body{
             bottom: 70px;
 
             @media (max-width: 768px) {
-                background-image: url('../images/mobile/image-header.jpg');
+                background-image: url('../images/shared/tablet/image-header.jpg');
                 background-size: cover;
+                border: red solid 2px;
                 background-repeat: no-repeat;
             }
         }
@@ -123,12 +125,27 @@ body{
             left: 165px;
             font-family: 'Manrope', sans-serif;
 
+            @media screen and (max-width: 768px) {
+                text-align: center;
+                align-items: center;
+                width: 498px;
+                margin-left: 55px;
+                margin-top: 50px;
+
+            }
+
             h2{
                 font-size: 14px;
                 color: #7e7878;
                 text-transform: uppercase;
                 letter-spacing: 10px;
                 margin-bottom: 30px;
+
+
+                @media screen and (max-width: 768px) {
+                    font-size: 18px;
+                    margin-bottom: 25px;
+                }
             }
 
             h1{
@@ -139,6 +156,10 @@ body{
                 font-size: 56px;
                 text-transform: uppercase;
                 margin-bottom: 20px;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 50px;
+                }
             }
 
             p{
@@ -147,6 +168,11 @@ body{
                 line-height: 25px;
                 font-size: 15px;
                 margin-bottom: 35px;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 22px;
+                    margin-bottom: 42px;
+                }
             }
 
             .main-product{
