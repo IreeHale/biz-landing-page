@@ -15,7 +15,6 @@ body .welcome-section {
 @media (max-width: 768px) {
   body .welcome-section {
     width: 768px;
-    height: 900px;
   }
 }
 body .welcome-section .navbar {
@@ -121,8 +120,8 @@ body .welcome-section .intro {
     text-align: center;
     align-items: center;
     width: 498px;
-    margin-left: 55px;
-    margin-top: 50px;
+    top: 190px;
+    left: 140px;
   }
 }
 body .welcome-section .intro h2 {
@@ -134,7 +133,7 @@ body .welcome-section .intro h2 {
 }
 @media screen and (max-width: 768px) {
   body .welcome-section .intro h2 {
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 25px;
   }
 }
@@ -149,7 +148,7 @@ body .welcome-section .intro h1 {
 }
 @media screen and (max-width: 768px) {
   body .welcome-section .intro h1 {
-    font-size: 50px;
+    font-size: 56px;
   }
 }
 body .welcome-section .intro p {
