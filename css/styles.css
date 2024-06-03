@@ -69,7 +69,7 @@ body .welcome-section .navbar ul li .cart {
 @media screen and (max-width: 768px) {
   body .welcome-section .navbar ul li .cart {
     display: block;
-    margin-left: 160px;
+    margin-left: 190px;
   }
 }
 body .welcome-section .navbar ul li #hamburger {
@@ -103,7 +103,6 @@ body .welcome-section .hero-section {
   body .welcome-section .hero-section {
     background-image: url("../images/shared/tablet/image-header.jpg");
     background-size: cover;
-    border: red solid 2px;
     background-repeat: no-repeat;
   }
 }
@@ -193,12 +192,25 @@ body .product-section {
     overflow: hidden;
   }
 }
+@media screen and (max-width: 768px) {
+  body .product-section {
+    border: 2px solid red;
+    width: 768px;
+    padding: 149px 0px 349px 0px;
+  }
+}
 body .product-section .product-list {
   display: flex;
   flex-direction: row;
   gap: 30px;
   width: 1110px;
   height: 289px;
+}
+@media screen and (max-width: 768px) {
+  body .product-section .product-list {
+    width: 768px;
+    gap: 0px;
+  }
 }
 body .product-section .product-list .product-link {
   height: 284px;
@@ -211,6 +223,12 @@ body .product-section .product-list .product-link .headphones {
   width: 350px;
   margin-top: 85px;
   border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  body .product-section .product-list .product-link .headphones {
+    height: 165px;
+    width: 223px;
+  }
 }
 body .product-section .product-list .product-link .headphones h2 {
   font-weight: bold;
@@ -247,6 +265,12 @@ body .product-section .product-list .product-link .speakers {
   margin-top: 85px;
   border-radius: 6px;
 }
+@media screen and (max-width: 768px) {
+  body .product-section .product-list .product-link .speakers {
+    height: 165px;
+    width: 223px;
+  }
+}
 body .product-section .product-list .product-link .speakers img {
   height: 140px;
   width: 150px;
@@ -281,6 +305,12 @@ body .product-section .product-list .product-link .earphones {
   width: 350px;
   margin-top: 83px;
   border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  body .product-section .product-list .product-link .earphones {
+    height: 165px;
+    width: 223px;
+  }
 }
 body .product-section .product-list .product-link .earphones img {
   height: 130px;
