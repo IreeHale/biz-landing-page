@@ -502,6 +502,8 @@ body .product-section .yx1-earphones img {
   body .product-section .yx1-earphones img {
     height: 320px;
     width: 339px;
+    background-size: cover;
+    background-image: url("../images/shared/tablet/image-earphones-yx1.jpg");
   }
 }
 body .product-section .yx1-earphones .new-earphones {
