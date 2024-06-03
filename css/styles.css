@@ -197,6 +197,7 @@ body .product-section {
     border: 2px solid red;
     width: 768px;
     padding: 149px 0px 349px 0px;
+    height: 3500px;
   }
 }
 body .product-section .product-list {
@@ -210,6 +211,7 @@ body .product-section .product-list {
   body .product-section .product-list {
     width: 768px;
     gap: 0px;
+    margin-left: 15px;
   }
 }
 body .product-section .product-list .product-link {
@@ -351,6 +353,14 @@ body .product-section .zx9-speaker {
   border-radius: 10px;
   overflow: hidden;
 }
+@media screen and (max-width: 768px) {
+  body .product-section .zx9-speaker {
+    height: 720px;
+    width: 689px;
+    margin-left: 40px;
+    align-items: center;
+  }
+}
 body .product-section .zx9-speaker img {
   width: 410.23px;
   height: 493px;
@@ -358,12 +368,28 @@ body .product-section .zx9-speaker img {
   top: 76px;
   left: 120px;
 }
+@media screen and (max-width: 768px) {
+  body .product-section .zx9-speaker img {
+    height: 237px;
+    width: 197.21px;
+    position: relative;
+    left: 270px;
+  }
+}
 body .product-section .zx9-speaker .new-speaker {
   width: 349px;
   height: 303px;
   position: relative;
   left: 650px;
   bottom: 340px;
+}
+@media screen and (max-width: 768px) {
+  body .product-section .zx9-speaker .new-speaker {
+    border: red solid 2px;
+    top: 120px;
+    left: 188px;
+    text-align: center;
+  }
 }
 body .product-section .zx9-speaker .new-speaker h1 {
   letter-spacing: 2px;

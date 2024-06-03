@@ -210,6 +210,7 @@ body{
             border: 2px solid red;
             width: 768px;
             padding: 149px 0px 349px 0px;
+            height: 3500px;
         }
 
         .product-list{
@@ -222,6 +223,7 @@ body{
             @media screen and (max-width: 768px){
                 width: 768px;
                 gap: 0px;
+                margin-left: 15px;
             }
 
             .product-link{
@@ -382,12 +384,28 @@ body{
             border-radius: 10px;
             overflow: hidden;
 
+            @media screen and (max-width: 768px){
+                height: 720px;
+                width: 689px;
+                margin-left: 40px;
+                align-items: center;
+            }
+
             img{
                 width: 410.23px;
                 height: 493px;
                 position: relative;
                 top: 76px;
                 left: 120px;
+
+
+                @media screen and (max-width: 768px) {
+                    height: 237px;
+                    width: 197.21px;
+                    position: relative;
+                    left: 270px;
+                }
+
             }
 
             .new-speaker{
@@ -396,6 +414,13 @@ body{
                 position: relative;
                 left: 650px;
                 bottom: 340px;
+
+                @media screen and (max-width: 768px) {
+                    border: red solid 2px;
+                    top: 120px;
+                    left: 188px;
+                    text-align: center;
+                }
 
                 h1{
                     letter-spacing: 2px;
