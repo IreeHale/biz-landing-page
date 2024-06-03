@@ -195,7 +195,7 @@ body .product-section {
 @media screen and (max-width: 768px) {
   body .product-section {
     border: 2px solid red;
-    width: 768px;
+    width: 764px;
     padding: 149px 0px 349px 0px;
     height: 3500px;
   }
@@ -516,7 +516,6 @@ body .product-section .yx1-earphones .new-earphones {
   body .product-section .yx1-earphones .new-earphones {
     height: 320px;
     width: 349px;
-    border: red solid 2px;
   }
 }
 body .product-section .yx1-earphones .new-earphones .info {
