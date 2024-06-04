@@ -7,11 +7,6 @@ body .welcome-section {
   width: 100%;
   overflow: hidden;
 }
-@media screen and (max-width: 1440px) {
-  body .welcome-section {
-    width: 100%;
-  }
-}
 @media (max-width: 768px) {
   body .welcome-section {
     width: 768px;
@@ -488,7 +483,7 @@ body .product-section .yx1-earphones {
 }
 @media screen and (max-width: 768px) {
   body .product-section .yx1-earphones {
-    margin-left: 20px;
+    margin-left: 35px;
     height: 320px;
     gap: 15px;
   }

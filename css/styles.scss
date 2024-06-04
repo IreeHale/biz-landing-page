@@ -7,10 +7,6 @@ body{
         width: 100%;
         overflow: hidden;
 
-        @media screen and (max-width: 1440px){
-            width: 100%;
-        }
-
         @media (max-width: 768px){
             width: 768px;
             
@@ -529,7 +525,7 @@ body{
             gap: 35px;
 
             @media screen and (max-width: 768px) {
-                margin-left: 20px;
+                margin-left: 35px;
                 height: 320px;
                 gap: 15px;
             }
