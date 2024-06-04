@@ -189,10 +189,9 @@ body .product-section {
 }
 @media screen and (max-width: 768px) {
   body .product-section {
-    border: 2px solid red;
     width: 764px;
     padding: 149px 0px 349px 0px;
-    height: 3500px;
+    height: 3350px;
   }
 }
 body .product-section .product-list {
@@ -559,12 +558,39 @@ body .product-section .ending-quote {
   display: flex;
   flex-direction: row;
 }
+@media screen and (max-width: 768px) {
+  body .product-section .ending-quote {
+    flex-direction: column-reverse;
+    width: 689px;
+    height: 683px;
+    margin-left: 40px;
+    padding-top: 30px;
+  }
+}
 body .product-section .ending-quote img {
   border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  body .product-section .ending-quote img {
+    height: 435px;
+    margin-top: 79px;
+    width: 589px;
+    margin-left: 45px;
+    margin-bottom: 0px;
+  }
 }
 body .product-section .ending-quote .location-info {
   padding-top: 150px;
   padding-left: 40px;
+}
+@media screen and (max-width: 768px) {
+  body .product-section .ending-quote .location-info {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 25px;
+    padding-top: 35px;
+  }
 }
 body .product-section .ending-quote .location-info h1 {
   font-weight: bold;
@@ -573,6 +599,13 @@ body .product-section .ending-quote .location-info h1 {
   letter-spacing: 1.43px;
   text-transform: uppercase;
   padding-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  body .product-section .ending-quote .location-info h1 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
 }
 body .product-section .ending-quote .location-info h1 span {
   color: #d87d4a;
@@ -584,6 +617,15 @@ body .product-section .ending-quote .location-info p {
   letter-spacing: 0px;
   width: 445px;
   height: 175px;
+}
+@media screen and (max-width: 768px) {
+  body .product-section .ending-quote .location-info p {
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    margin-left: 70px;
+    line-height: 25px;
+  }
 }
 body .product-section .last-section {
   border: black solid 2px;
@@ -602,6 +644,13 @@ body .product-section .last-section {
     right: 170px;
   }
 }
+@media screen and (max-width: 768px) {
+  body .product-section .last-section {
+    width: 850px;
+    height: 400px;
+    left: 5px;
+  }
+}
 body .product-section .last-section .footer-info {
   color: white;
 }
@@ -617,6 +666,11 @@ body .product-section .last-section .footer-info .footer-nav ul {
   flex-direction: row;
   padding-top: 10px;
 }
+@media screen and (max-width: 768px) {
+  body .product-section .last-section .footer-info .footer-nav ul {
+    flex-wrap: wrap;
+  }
+}
 body .product-section .last-section .footer-info .footer-nav ul li .logo-2 {
   padding-left: 100px;
   padding-right: 750px;
@@ -624,6 +678,13 @@ body .product-section .last-section .footer-info .footer-nav ul li .logo-2 {
 @media screen and (max-width: 1440px) {
   body .product-section .last-section .footer-info .footer-nav ul li .logo-2 {
     padding-right: 640px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .product-section .last-section .footer-info .footer-nav ul li .logo-2 {
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 300px;
   }
 }
 body .product-section .last-section .footer-info .footer-nav ul li .logo-2 img {
@@ -640,6 +701,11 @@ body .product-section .last-section .footer-info .footer-nav ul li a {
   padding-right: 30px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 768px) {
+  body .product-section .last-section .footer-info .footer-nav ul li a {
+    position: relative;
+  }
+}
 body .product-section .last-section .footer-info .footer-nav ul li a:hover {
   color: #D87D4A;
   transition-duration: 0.4s;
@@ -649,6 +715,11 @@ body .product-section .last-section .footer-info .more {
   width: 540px;
   margin-left: 90px;
   margin-top: 90px;
+}
+@media screen and (max-width: 768px) {
+  body .product-section .last-section .footer-info .more {
+    margin-left: 30px;
+  }
 }
 body .product-section .last-section .footer-info .more p {
   font-weight: medium;
@@ -668,6 +739,17 @@ body .product-section .last-section .footer-info .social-links {
   position: relative;
   left: 1000px;
   bottom: 200px;
+}
+@media screen and (max-width: 768px) {
+  body .product-section .last-section .footer-info .social-links {
+    bottom: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .product-section .last-section .footer-info .social-links {
+    left: 520px;
+    bottom: 55px;
+  }
 }
 body .product-section .last-section .footer-info .social-links img {
   padding-right: 25px;
