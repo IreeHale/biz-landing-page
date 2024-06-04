@@ -191,7 +191,7 @@ body .product-section {
   body .product-section {
     width: 764px;
     padding: 149px 0px 349px 0px;
-    height: 3350px;
+    height: 3300px;
   }
 }
 body .product-section .product-list {
@@ -628,7 +628,6 @@ body .product-section .ending-quote .location-info p {
   }
 }
 body .product-section .last-section {
-  border: black solid 2px;
   background-color: black;
   margin-top: 130px;
   position: relative;
@@ -646,9 +645,11 @@ body .product-section .last-section {
 }
 @media screen and (max-width: 768px) {
   body .product-section .last-section {
-    width: 850px;
-    height: 400px;
+    overflow: visible;
+    width: 2500px;
+    height: 500px;
     left: 5px;
+    border: black solid 5px;
   }
 }
 body .product-section .last-section .footer-info {
