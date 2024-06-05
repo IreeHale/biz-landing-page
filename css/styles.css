@@ -604,7 +604,7 @@ body .product-section .ending-quote .location-info h1 {
   body .product-section .ending-quote .location-info h1 {
     padding-bottom: 20px;
     font-size: 20px;
-    margin-right: 40px;
+    margin-right: 70px;
   }
 }
 body .product-section .ending-quote .location-info h1 span {
@@ -623,7 +623,7 @@ body .product-section .ending-quote .location-info p {
     font-size: 15px;
     text-align: center;
     align-items: center;
-    margin-left: 70px;
+    margin-left: 50px;
     line-height: 25px;
   }
 }
