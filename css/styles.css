@@ -12,6 +12,11 @@ body .welcome-section {
     width: 768px;
   }
 }
+@media (max-width: 390px) {
+  body .welcome-section {
+    width: 390px;
+  }
+}
 body .welcome-section .navbar {
   height: 70px;
   width: 100%;

@@ -12,6 +12,10 @@ body{
             
         }
 
+        @media (max-width: 390px) {
+            width: 390px;
+        }
+
         .navbar{
             height: 70px;
             width: 100%;
