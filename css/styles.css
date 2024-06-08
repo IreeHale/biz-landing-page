@@ -124,6 +124,7 @@ body .welcome-section .hero-section {
     background-image: url("../images/mobile/image-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
   }
 }
 body .welcome-section .intro {
@@ -149,8 +150,8 @@ body .welcome-section .intro {
     align-items: center;
     width: 328px;
     height: 290px;
-    top: 190px;
-    left: 32px;
+    top: 235px;
+    left: 45px;
   }
 }
 body .welcome-section .intro h2 {
@@ -164,6 +165,12 @@ body .welcome-section .intro h2 {
   body .welcome-section .intro h2 {
     font-size: 14px;
     margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .welcome-section .intro h2 {
+    font-size: 12px;
+    margin-bottom: 10px;
   }
 }
 body .welcome-section .intro h1 {
@@ -180,6 +187,13 @@ body .welcome-section .intro h1 {
     font-size: 56px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .welcome-section .intro h1 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+}
 body .welcome-section .intro p {
   color: #f1f1f1;
   font-weight: 400;
@@ -191,6 +205,12 @@ body .welcome-section .intro p {
   body .welcome-section .intro p {
     font-size: 22px;
     margin-bottom: 42px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .welcome-section .intro p {
+    font-size: 15px;
+    margin-bottom: 30px;
   }
 }
 body .welcome-section .intro .main-product {
@@ -243,6 +263,15 @@ body .product-section .product-list {
     margin-left: 15px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .product-section .product-list {
+    flex-direction: column;
+    border: 1px solid red;
+    margin-left: 25px;
+    height: 693px;
+    width: 327px;
+  }
+}
 body .product-section .product-list .product-link {
   height: 284px;
   width: 350px;
@@ -259,6 +288,12 @@ body .product-section .product-list .product-link .headphones {
   body .product-section .product-list .product-link .headphones {
     height: 165px;
     width: 223px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .product-section .product-list .product-link .headphones {
+    height: 165px;
+    width: 327px;
   }
 }
 body .product-section .product-list .product-link .headphones h2 {
@@ -302,6 +337,12 @@ body .product-section .product-list .product-link .speakers {
     width: 223px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .product-section .product-list .product-link .speakers {
+    height: 165px;
+    width: 327px;
+  }
+}
 body .product-section .product-list .product-link .speakers img {
   height: 140px;
   width: 150px;
@@ -341,6 +382,12 @@ body .product-section .product-list .product-link .earphones {
   body .product-section .product-list .product-link .earphones {
     height: 165px;
     width: 223px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .product-section .product-list .product-link .earphones {
+    height: 165px;
+    width: 327px;
   }
 }
 body .product-section .product-list .product-link .earphones img {

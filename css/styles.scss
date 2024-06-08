@@ -130,6 +130,7 @@ body{
                 background-image: url('../images/mobile/image-header.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
+                width: 100%;
             }
         }
 
@@ -154,8 +155,8 @@ body{
                 align-items: center;
                 width: 328px;
                 height: 290px;
-                top: 190px;
-                left: 32px;
+                top: 235px;
+                left: 45px;
             }
 
             h2{
@@ -169,6 +170,11 @@ body{
                 @media screen and (max-width: 768px) {
                     font-size: 14px;
                     margin-bottom: 25px;
+                }
+
+                @media screen and (max-width: 390px) {
+                    font-size: 12px;
+                    margin-bottom: 10px;
                 }
             }
 
@@ -184,6 +190,12 @@ body{
                 @media screen and (max-width: 768px) {
                     font-size: 56px;
                 }
+
+                @media screen and (max-width: 390px) {
+                    font-size: 30px;
+                    line-height: 45px;
+                    margin-bottom: 20px;
+                }
             }
 
             p{
@@ -196,6 +208,11 @@ body{
                 @media screen and (max-width: 768px) {
                     font-size: 22px;
                     margin-bottom: 42px;
+                }
+
+                @media screen and (max-width: 390px) {
+                    font-size: 15px;
+                    margin-bottom: 30px;
                 }
             }
 
@@ -251,6 +268,14 @@ body{
                 margin-left: 15px;
             }
 
+            @media screen and (max-width: 390px){
+                flex-direction: column;
+                border: 1px solid red;
+                margin-left: 25px;
+                height: 693px;
+                width: 327px;
+            }
+
             .product-link{
                 height: 284px;
                 width: 350px;
@@ -267,6 +292,11 @@ body{
                     @media screen and (max-width: 768px) {
                         height: 165px;
                         width: 223px;
+                    }
+
+                    @media screen and (max-width: 390px) {
+                        height: 165px;
+                        width: 327px;
                     }
 
 
@@ -316,6 +346,11 @@ body{
                         width: 223px;
                     }
 
+                    @media screen and (max-width: 390px) {
+                        height: 165px;
+                        width: 327px;
+                    }
+
                     img{
                         height: 140px;
                         width: 150px;
@@ -360,6 +395,11 @@ body{
                     @media screen and (max-width: 768px) {
                         height: 165px;
                         width: 223px;
+                    }
+
+                    @media screen and (max-width: 390px) {
+                        height: 165px;
+                        width: 327px;
                     }
 
                     img{
