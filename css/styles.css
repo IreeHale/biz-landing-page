@@ -59,6 +59,12 @@ body .welcome-section .navbar ul li .logo {
     margin-left: 0px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .welcome-section .navbar ul li .logo {
+    margin-left: 40px;
+    margin-right: 0px;
+  }
+}
 body .welcome-section .navbar ul li .logo:hover {
   cursor: pointer;
 }
@@ -70,6 +76,13 @@ body .welcome-section .navbar ul li .cart {
   body .welcome-section .navbar ul li .cart {
     display: block;
     margin-left: 190px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .welcome-section .navbar ul li .cart {
+    display: block;
+    margin-right: -50px;
+    margin-left: 30px;
   }
 }
 body .welcome-section .navbar ul li #hamburger {
@@ -106,6 +119,13 @@ body .welcome-section .hero-section {
     background-repeat: no-repeat;
   }
 }
+@media screen and (max-width: 390px) {
+  body .welcome-section .hero-section {
+    background-image: url("../images/mobile/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 body .welcome-section .intro {
   height: 346px;
   width: 398px;
@@ -121,6 +141,16 @@ body .welcome-section .intro {
     width: 498px;
     top: 190px;
     left: 140px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .welcome-section .intro {
+    text-align: center;
+    align-items: center;
+    width: 328px;
+    height: 290px;
+    top: 190px;
+    left: 32px;
   }
 }
 body .welcome-section .intro h2 {
