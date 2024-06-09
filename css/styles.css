@@ -437,6 +437,12 @@ body .product-section .zx9-speaker {
     align-items: center;
   }
 }
+@media screen and (max-width: 390px) {
+  body .product-section .zx9-speaker {
+    width: 327px;
+    height: 600px;
+  }
+}
 body .product-section .zx9-speaker img {
   width: 410.23px;
   height: 493px;
@@ -450,6 +456,11 @@ body .product-section .zx9-speaker img {
     width: 197.21px;
     position: relative;
     left: 270px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .product-section .zx9-speaker img {
+    left: 70px;
   }
 }
 body .product-section .zx9-speaker .new-speaker {
@@ -466,6 +477,13 @@ body .product-section .zx9-speaker .new-speaker {
     text-align: center;
   }
 }
+@media screen and (max-width: 390px) {
+  body .product-section .zx9-speaker .new-speaker {
+    left: 0px;
+    text-align: center;
+    align-items: center;
+  }
+}
 body .product-section .zx9-speaker .new-speaker h1 {
   letter-spacing: 2px;
   line-height: 58px;
@@ -475,12 +493,29 @@ body .product-section .zx9-speaker .new-speaker h1 {
   text-transform: uppercase;
   padding-bottom: 20px;
 }
+@media screen and (max-width: 390px) {
+  body .product-section .zx9-speaker .new-speaker h1 {
+    font-size: 36px;
+    width: 280px;
+    margin-left: 35px;
+    padding-bottom: 10px;
+  }
+}
 body .product-section .zx9-speaker .new-speaker p {
   line-height: 25px;
   font-size: 15px;
   font-weight: medium;
   color: #ffffff;
   padding-bottom: 35px;
+}
+@media screen and (max-width: 390px) {
+  body .product-section .zx9-speaker .new-speaker p {
+    font-size: 13px;
+    width: 280px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
 }
 body .product-section .zx9-speaker .new-speaker button {
   color: #ffffff;

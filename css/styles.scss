@@ -456,6 +456,11 @@ body{
                 align-items: center;
             }
 
+            @media screen and (max-width:390px) {
+                width: 327px;
+                height: 600px;
+            }
+
             img{
                 width: 410.23px;
                 height: 493px;
@@ -469,6 +474,10 @@ body{
                     width: 197.21px;
                     position: relative;
                     left: 270px;
+                }
+
+                @media screen and (max-width: 390px) {
+                    left: 70px;
                 }
 
             }
@@ -486,6 +495,12 @@ body{
                     text-align: center;
                 }
 
+                @media screen and (max-width: 390px) {
+                    left: 0px;
+                    text-align: center;
+                    align-items: center;
+                }
+
                 h1{
                     letter-spacing: 2px;
                     line-height: 58px;
@@ -494,6 +509,13 @@ body{
                     color: #ffffff;
                     text-transform: uppercase;
                     padding-bottom: 20px;
+
+                    @media screen and (max-width: 390px) {
+                        font-size: 36px;
+                        width: 280px;
+                        margin-left: 35px;
+                        padding-bottom: 10px;
+                    }
                 }
 
                 p{
@@ -502,6 +524,14 @@ body{
                     font-weight: medium;
                     color: #ffffff;
                     padding-bottom: 35px;
+
+                    @media screen and (max-width: 390px) {
+                        font-size: 13px;
+                        width: 280px;
+                        height: 50px;
+                        margin-left: 30px;
+                        margin-bottom: 20px;
+                    }
                 }
 
                 button{
