@@ -720,6 +720,12 @@ body .product-section .ending-quote {
     padding-top: 30px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .product-section .ending-quote {
+    height: 698px;
+    width: 327px;
+  }
+}
 body .product-section .ending-quote img {
   border-radius: 6px;
 }
@@ -730,6 +736,13 @@ body .product-section .ending-quote img {
     width: 589px;
     margin-left: 45px;
     margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .product-section .ending-quote img {
+    width: 327px;
+    height: 300px;
+    margin-left: 0px;
   }
 }
 body .product-section .ending-quote .location-info {
@@ -745,6 +758,12 @@ body .product-section .ending-quote .location-info {
     padding-top: 35px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .product-section .ending-quote .location-info {
+    text-align: center;
+    align-items: center;
+  }
+}
 body .product-section .ending-quote .location-info h1 {
   font-weight: bold;
   font-size: 40px;
@@ -758,6 +777,16 @@ body .product-section .ending-quote .location-info h1 {
     padding-bottom: 20px;
     font-size: 20px;
     margin-right: 70px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .product-section .ending-quote .location-info h1 {
+    font-size: 20px;
+    line-height: 25px;
+    width: 300px;
+    position: relative;
+    right: 55px;
+    padding-bottom: 20px;
   }
 }
 body .product-section .ending-quote .location-info h1 span {
@@ -778,6 +807,17 @@ body .product-section .ending-quote .location-info p {
     align-items: center;
     margin-left: 50px;
     line-height: 25px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .product-section .ending-quote .location-info p {
+    font-size: 13px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    right: 100px;
+    width: 300px;
   }
 }
 body .product-section .last-section {
