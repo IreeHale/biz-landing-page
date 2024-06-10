@@ -638,8 +638,9 @@ body .product-section .yx1-earphones {
 @media screen and (max-width: 390px) {
   body .product-section .yx1-earphones {
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 35px;
     gap: 20px;
+    margin-top: 50px;
   }
 }
 body .product-section .yx1-earphones img {
