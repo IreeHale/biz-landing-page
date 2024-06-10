@@ -266,8 +266,7 @@ body .product-section .product-list {
 @media screen and (max-width: 390px) {
   body .product-section .product-list {
     flex-direction: column;
-    border: 1px solid red;
-    margin-left: 25px;
+    margin-left: 30px;
     height: 693px;
     width: 327px;
   }
@@ -440,6 +439,7 @@ body .product-section .zx9-speaker {
 @media screen and (max-width: 390px) {
   body .product-section .zx9-speaker {
     width: 327px;
+    margin-top: 186px;
     height: 600px;
     margin-bottom: 0px;
   }
@@ -557,9 +557,12 @@ body .product-section .zx7-speaker {
 @media screen and (max-width: 390px) {
   body .product-section .zx7-speaker {
     left: 70px;
-    background-image: url("../images/shared/mobile/image-zx7-speaker.jpg");
+    background-image: url("../images/mobile/image-speaker-zx7.jpg");
+    background-size: cover;
     width: 327px;
     height: 320px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 body .product-section .zx7-speaker .second-speaker {
@@ -575,12 +578,24 @@ body .product-section .zx7-speaker .second-speaker {
     margin-bottom: 100px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .product-section .zx7-speaker .second-speaker {
+    position: relative;
+    right: 20px;
+    bottom: 30px;
+  }
+}
 body .product-section .zx7-speaker .second-speaker h1 {
   font-weight: bold;
   font-size: 28px;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-bottom: 30px;
+}
+@media screen and (max-width: 390px) {
+  body .product-section .zx7-speaker .second-speaker h1 {
+    font-size: 23px;
+  }
 }
 body .product-section .zx7-speaker .second-speaker button {
   width: 160px;
@@ -613,6 +628,13 @@ body .product-section .yx1-earphones {
     gap: 15px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .product-section .yx1-earphones {
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 20px;
+  }
+}
 body .product-section .yx1-earphones img {
   height: 320px;
   width: 540px;
@@ -636,6 +658,11 @@ body .product-section .yx1-earphones .new-earphones {
   body .product-section .yx1-earphones .new-earphones {
     height: 320px;
     width: 349px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .product-section .yx1-earphones .new-earphones {
+    padding-bottom: 60px;
   }
 }
 body .product-section .yx1-earphones .new-earphones .info {

@@ -270,8 +270,7 @@ body{
 
             @media screen and (max-width: 390px){
                 flex-direction: column;
-                border: 1px solid red;
-                margin-left: 25px;
+                margin-left: 30px;
                 height: 693px;
                 width: 327px;
             }
@@ -458,6 +457,7 @@ body{
 
             @media screen and (max-width:390px) {
                 width: 327px;
+                margin-top: 186px;
                 height: 600px;
                 margin-bottom: 0px;
             }
@@ -578,9 +578,12 @@ body{
 
             @media screen and (max-width: 390px) {
                 left: 70px;
-                background-image: url('../images/shared/mobile/image-zx7-speaker.jpg');
+                background-image: url('../images/mobile/image-speaker-zx7.jpg');
+                background-size: cover;
                 width: 327px;
                 height: 320px;
+                margin-top: 50px;
+                margin-bottom: 50px;
             }
 
             .second-speaker{
@@ -595,12 +598,22 @@ body{
                     margin-bottom: 100px;
                 }
 
+                @media screen and (max-width: 390px) {
+                    position: relative;
+                    right: 20px;
+                    bottom: 30px;
+                }
+
                 h1{
                     font-weight: bold;
                     font-size: 28px;
                     letter-spacing: 2px;
                     text-transform: uppercase;
                     padding-bottom: 30px;
+
+                    @media screen and (max-width: 390px) {
+                        font-size: 23px;
+                    }
                 }
 
                 button{
@@ -637,6 +650,12 @@ body{
                 gap: 15px;
             }
 
+            @media screen and (max-width: 390px) {
+                flex-direction: column;
+                margin-left: 40px;
+                gap: 20px;
+            }
+
             img{
                 height: 320px;
                 width: 540px;
@@ -659,6 +678,10 @@ body{
                 @media screen and (max-width: 768px) {
                     height: 320px;
                     width: 349px;
+                }
+
+                @media screen and (max-width: 390px) {
+                    padding-bottom: 60px;
                 }
 
                 .info{
