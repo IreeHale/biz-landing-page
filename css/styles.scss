@@ -459,6 +459,7 @@ body{
             @media screen and (max-width:390px) {
                 width: 327px;
                 height: 600px;
+                margin-bottom: 0px;
             }
 
             img{
@@ -496,7 +497,7 @@ body{
                 }
 
                 @media screen and (max-width: 390px) {
-                    left: 0px;
+                    left: 5px;
                     text-align: center;
                     align-items: center;
                 }
@@ -573,6 +574,13 @@ body{
                 height: 320px;
                 background-repeat: no-repeat;
                 background-image: url('../images/shared/tablet/image-speaker-zx7.jpg' );
+            }
+
+            @media screen and (max-width: 390px) {
+                left: 70px;
+                background-image: url('../images/shared/mobile/image-zx7-speaker.jpg');
+                width: 327px;
+                height: 320px;
             }
 
             .second-speaker{
