@@ -255,6 +255,12 @@ body{
             height: 3300px;
         }
 
+        @media screen and (max-width: 390px) {
+            width: 390px;
+            padding: 149px 0px 349px 0px;
+            height: 3590px;
+        }
+
         .product-list{
             display: flex;
             flex-direction: row;
@@ -652,7 +658,7 @@ body{
 
             @media screen and (max-width: 390px) {
                 flex-direction: column;
-                margin-left: 40px;
+                margin-left: 30px;
                 gap: 20px;
             }
 
@@ -682,6 +688,7 @@ body{
 
                 @media screen and (max-width: 390px) {
                     padding-bottom: 60px;
+                    width: 340px;
                 }
 
                 .info{
@@ -865,6 +872,13 @@ body{
                 border: black solid 5px;
             }
 
+            @media screen and (max-width: 390px){
+                width: 385px;
+                height: 654px;
+                overflow: visible;
+                margin-left: -10px;
+            }
+
 
             .footer-info{
                 color: white;
@@ -877,6 +891,10 @@ body{
                     margin-bottom: 30px;
                     margin-top: 30px;
 
+                    @media screen and (max-width: 390px){
+                        width: 375px;
+                    }
+
                     ul{
                         display: flex;
                         flex-direction: row;
@@ -884,6 +902,16 @@ body{
 
                         @media screen and (max-width:768px){
                             flex-wrap: wrap;
+                        }
+
+                        @media screen and (max-width:390px) {
+                            flex-direction: column;
+                            margin-bottom: 50px;
+                            margin-top: -30px;
+                            width: 375px;
+                            text-align: center;
+                            align-items: center;
+                            padding-left: 30px;
                         }
 
                         li{
@@ -899,6 +927,11 @@ body{
                                     padding-right: 130px;
                                     padding-left: 30px;
                                     width: 300px;
+                                }
+
+                                @media screen and (max-width: 390px) {
+                                    position: inherit;
+                                    margin-left: 70px;
                                 }
                                 
                                 img{
@@ -947,6 +980,14 @@ body{
                         font-size: 15px;
                         line-height: 25px;
                         letter-spacing: 0px;
+
+                        @media screen and (max-width: 390px){
+                            margin-top: 150px;
+                            margin-left: 15px;
+                            width: 300px;
+                            text-align: center;
+
+                        }
                     }
 
                     .copyright{
@@ -970,6 +1011,11 @@ body{
                     @media screen and (max-width: 768px){
                         left: 520px;
                         bottom: 55px;
+                    }
+
+                    @media screen and (max-width: 390px){
+                        left: 130px;
+                        bottom: -55px;
                     }
 
 

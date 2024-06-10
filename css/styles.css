@@ -249,6 +249,13 @@ body .product-section {
     height: 3300px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .product-section {
+    width: 390px;
+    padding: 149px 0px 349px 0px;
+    height: 3590px;
+  }
+}
 body .product-section .product-list {
   display: flex;
   flex-direction: row;
@@ -631,7 +638,7 @@ body .product-section .yx1-earphones {
 @media screen and (max-width: 390px) {
   body .product-section .yx1-earphones {
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 30px;
     gap: 20px;
   }
 }
@@ -663,6 +670,7 @@ body .product-section .yx1-earphones .new-earphones {
 @media screen and (max-width: 390px) {
   body .product-section .yx1-earphones .new-earphones {
     padding-bottom: 60px;
+    width: 340px;
   }
 }
 body .product-section .yx1-earphones .new-earphones .info {
@@ -845,6 +853,14 @@ body .product-section .last-section {
     border: black solid 5px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .product-section .last-section {
+    width: 385px;
+    height: 654px;
+    overflow: visible;
+    margin-left: -10px;
+  }
+}
 body .product-section .last-section .footer-info {
   color: white;
 }
@@ -855,6 +871,11 @@ body .product-section .last-section .footer-info .footer-nav {
   margin-bottom: 30px;
   margin-top: 30px;
 }
+@media screen and (max-width: 390px) {
+  body .product-section .last-section .footer-info .footer-nav {
+    width: 375px;
+  }
+}
 body .product-section .last-section .footer-info .footer-nav ul {
   display: flex;
   flex-direction: row;
@@ -863,6 +884,17 @@ body .product-section .last-section .footer-info .footer-nav ul {
 @media screen and (max-width: 768px) {
   body .product-section .last-section .footer-info .footer-nav ul {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .product-section .last-section .footer-info .footer-nav ul {
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    width: 375px;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
   }
 }
 body .product-section .last-section .footer-info .footer-nav ul li .logo-2 {
@@ -879,6 +911,12 @@ body .product-section .last-section .footer-info .footer-nav ul li .logo-2 {
     padding-right: 130px;
     padding-left: 30px;
     width: 300px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .product-section .last-section .footer-info .footer-nav ul li .logo-2 {
+    position: inherit;
+    margin-left: 70px;
   }
 }
 body .product-section .last-section .footer-info .footer-nav ul li .logo-2 img {
@@ -921,6 +959,14 @@ body .product-section .last-section .footer-info .more p {
   line-height: 25px;
   letter-spacing: 0px;
 }
+@media screen and (max-width: 390px) {
+  body .product-section .last-section .footer-info .more p {
+    margin-top: 150px;
+    margin-left: 15px;
+    width: 300px;
+    text-align: center;
+  }
+}
 body .product-section .last-section .footer-info .more .copyright {
   margin-top: 80px;
 }
@@ -943,6 +989,12 @@ body .product-section .last-section .footer-info .social-links {
   body .product-section .last-section .footer-info .social-links {
     left: 520px;
     bottom: 55px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .product-section .last-section .footer-info .social-links {
+    left: 130px;
+    bottom: -55px;
   }
 }
 body .product-section .last-section .footer-info .social-links img {
